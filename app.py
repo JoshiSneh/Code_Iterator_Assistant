@@ -4,7 +4,7 @@ import difflib
 from pydantic import BaseModel
 
 st.set_page_config(page_title="🎮 Game Code Copilot", layout="wide")
-st.title("🧠 Game Code Copilot")
+st.title("🧠 Game Code Copilot ")
 
 class OutputGenerated(BaseModel):
     improved_code: str
